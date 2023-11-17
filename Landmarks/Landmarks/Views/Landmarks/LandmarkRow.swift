@@ -4,7 +4,10 @@
 //
 //  Created by Toheed Jahan Khan on 17/11/23.
 //
-
+/*
+ Abstract:
+ A single row to be displayed in a list of landmarks.
+ */
 import SwiftUI
 
 struct LandmarkRow: View {

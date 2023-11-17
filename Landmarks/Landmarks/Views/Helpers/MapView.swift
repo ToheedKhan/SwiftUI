@@ -4,6 +4,10 @@
 //
 //  Created by Toheed Jahan Khan on 17/11/23.
 //
+/*
+ Abstract:
+ A view that presents a map of a landmark.
+ */
 
 import SwiftUI
 import MapKit

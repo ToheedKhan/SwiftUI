@@ -5,6 +5,10 @@
 //  Created by Toheed Jahan Khan on 17/11/23.
 //
 
+/*
+ Abstract:
+ A view showing the details for a landmark.
+ */
 import SwiftUI
 import CoreLocation
 

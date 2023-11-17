@@ -5,6 +5,11 @@
 //  Created by Toheed Jahan Khan on 16/11/23.
 //
 
+/*
+ Abstract:
+ The top-level definition of the Landmarks app.
+ */
+ 
 import SwiftUI
 
 @main
