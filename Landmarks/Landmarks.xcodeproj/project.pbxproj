@@ -12,6 +12,7 @@
 		8A24C2D32B06350700BBAD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A24C2D22B06350700BBAD9A /* Assets.xcassets */; };
 		8A24C2D62B06350700BBAD9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A24C2D52B06350700BBAD9A /* Preview Assets.xcassets */; };
 		8A24C2DD2B075BB200BBAD9A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A24C2DC2B075BB200BBAD9A /* CircleImage.swift */; };
+		8A24C2DF2B0764A000BBAD9A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A24C2DE2B0764A000BBAD9A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8A24C2D22B06350700BBAD9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A24C2D52B06350700BBAD9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A24C2DC2B075BB200BBAD9A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8A24C2DE2B0764A000BBAD9A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				8A24C2D22B06350700BBAD9A /* Assets.xcassets */,
 				8A24C2D42B06350700BBAD9A /* Preview Content */,
 				8A24C2DC2B075BB200BBAD9A /* CircleImage.swift */,
+				8A24C2DE2B0764A000BBAD9A /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A24C2D12B06350400BBAD9A /* ContentView.swift in Sources */,
+				8A24C2DF2B0764A000BBAD9A /* MapView.swift in Sources */,
 				8A24C2CF2B06350400BBAD9A /* LandmarksApp.swift in Sources */,
 				8A24C2DD2B075BB200BBAD9A /* CircleImage.swift in Sources */,
 			);
