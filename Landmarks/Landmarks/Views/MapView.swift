@@ -20,6 +20,10 @@ struct MapView: View {
 //        Map(initialPosition: .region(region))
 //    }
     
+    /*
+     This new initializer expects a Binding to a position, which is a bidirectional connection to the value. Use a .constant() binding here because MapView doesn’t need to detect when someone changes the position by interacting with the map.
+     */
+    
     var coordinate: CLLocationCoordinate2D
        @State private var region = MKCoordinateRegion()
 
