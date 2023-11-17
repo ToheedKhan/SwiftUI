@@ -12,6 +12,9 @@ import Foundation
  
  The load method relies on the return type’s conformance to the Decodable protocol, which is one component of the Codable protocol.
  */
+
+var landmarks: [Landmark] = load("landmarkData.json")
+
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
     
