@@ -23,6 +23,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var park: String
     var state: String
     var description: String
+    var isFavorite: Bool
     
     /* An imageName property to read the name of the image from the data.
      private because users of the Landmarks structure care only about the image itself
