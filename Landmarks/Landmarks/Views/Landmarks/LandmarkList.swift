@@ -26,6 +26,9 @@ struct LandmarkList: View {
     var body: some View {
         NavigationSplitView {
             List {
+                /*
+                 You use the $ prefix to access a binding to a state variable, or one of its properties.
+                 */
                 Toggle(isOn: $showFavoritesOnly) {
                                    Text("Favorites only")
                                }
