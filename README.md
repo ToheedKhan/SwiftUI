@@ -43,3 +43,15 @@ You add navigation capabilities to a list by embedding it in a **NavigationSplit
 
 ## In addition to List, which of these types presents a dynamic list of views from a collection?
 Place a ForEach instance inside a List or other container type to create a dynamic list.
+
+## Use observation for storage
+To prepare for the user to control which particular landmarks are favorites, you’ll first store the landmark data using the Observable() macro.
+With Observation, a view in SwiftUI can support data changes without using property wrappers or bindings. SwiftUI watches for any observable property changes that could affect a view, and displays the correct version of the view after a change.
+
+
+## The @Environment attribute.
+You use this attribute in views that are lower down in the view hierarchy to receive data from views that are higher up.
+
+## Passes data downward in the view hierarchy?
+## The environment(_:) modifier.
+You apply this modifier so that views further down in the view hierarchy can read data objects passed down through the environment.
