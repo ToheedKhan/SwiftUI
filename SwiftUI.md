@@ -16,7 +16,7 @@ Each wrapper indicates a different source of data:
 
 # **State**
 
-**State** is the simplest source of truth your app can have and used to store state that is local to a view layout. It is designed to contain simple **value types, such as Ints, Strings **(for example, value in a text field), and Bools (for example, toggle button).
+**State** is the simplest source of truth your app can have and used to store state that is local to a view layout. It is designed to contain simple **value types, such as Ints, Strings** (for example, value in a text field), and Bools (for example, toggle button).
 
 `@State` works by re-computing the body variable of your view any time it updates. So if you have some State in your view that keeps track of an integer, and you add 1 to the integer, your State will see this and re-render the view.
 
